@@ -98,7 +98,7 @@ def part2():
             i += 1
 
     for diagEntry in entriesWithDiag:
-        #print('diagentry: ' + str(diagEntry))
+        print('diagentry: ' + str(diagEntry))
 
         incrementX = 1 if diagEntry[0][0] - diagEntry[1][0] < 0 else -1
         incrementY = 1 if diagEntry[0][1] - diagEntry[1][1] < 0 else -1
